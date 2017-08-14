@@ -1,0 +1,218 @@
+[2017-08-14 13:55:08] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /usr/home/user9/apps/hello/app/routes.php:24
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2017-08-14 13:55:29] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /usr/home/user9/apps/hello/app/routes.php:24
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2017-08-14 14:15:44] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected 'Iluha' (T_STRING), expecting ')'' in /usr/home/user9/apps/hello/app/controllers/HelloController.php:6
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2017-08-14 14:38:40] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /usr/home/user9/apps/hello/app/routes.php:25
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2017-08-14 14:39:06] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /usr/home/user9/apps/hello/bootstrap/compiled.php:3723
+Stack trace:
+#0 /usr/home/user9/apps/hello/bootstrap/compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /usr/home/user9/apps/hello/bootstrap/compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /usr/home/user9/apps/hello/bootstrap/compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /usr/home/user9/apps/hello/bootstrap/compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /usr/home/user9/apps/hello/bootstrap/compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /usr/home/user9/apps/hello/bootstrap/compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /usr/home/user9/apps/hello/bootstrap/compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /usr/home/user9/apps/hello/bootstrap/compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /usr/home/user9/apps/hello/bootstrap/compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /usr/home/user9/apps/hello/bootstrap/compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /usr/home/user9/apps/hello/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-08-14 14:39:17] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /usr/home/user9/apps/hello/bootstrap/compiled.php:3723
+Stack trace:
+#0 /usr/home/user9/apps/hello/bootstrap/compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /usr/home/user9/apps/hello/bootstrap/compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /usr/home/user9/apps/hello/bootstrap/compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /usr/home/user9/apps/hello/bootstrap/compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /usr/home/user9/apps/hello/bootstrap/compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /usr/home/user9/apps/hello/bootstrap/compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /usr/home/user9/apps/hello/bootstrap/compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /usr/home/user9/apps/hello/bootstrap/compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /usr/home/user9/apps/hello/bootstrap/compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /usr/home/user9/apps/hello/bootstrap/compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /usr/home/user9/apps/hello/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-08-14 14:41:32] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /usr/home/user9/apps/hello/bootstrap/compiled.php:3723
+Stack trace:
+#0 /usr/home/user9/apps/hello/bootstrap/compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /usr/home/user9/apps/hello/bootstrap/compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /usr/home/user9/apps/hello/bootstrap/compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /usr/home/user9/apps/hello/bootstrap/compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /usr/home/user9/apps/hello/bootstrap/compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /usr/home/user9/apps/hello/bootstrap/compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /usr/home/user9/apps/hello/bootstrap/compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /usr/home/user9/apps/hello/bootstrap/compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /usr/home/user9/apps/hello/bootstrap/compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /usr/home/user9/apps/hello/bootstrap/compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /usr/home/user9/apps/hello/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-08-14 14:51:47] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\MethodNotAllowedHttpException' in /usr/home/user9/apps/hello/bootstrap/compiled.php:3747
+Stack trace:
+#0 /usr/home/user9/apps/hello/bootstrap/compiled.php(3743): Illuminate\Routing\RouteCollection->methodNotAllowed(Array)
+#1 /usr/home/user9/apps/hello/bootstrap/compiled.php(3721): Illuminate\Routing\RouteCollection->getOtherMethodsRoute(Object(Illuminate\Http\Request), Array)
+#2 /usr/home/user9/apps/hello/bootstrap/compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#3 /usr/home/user9/apps/hello/bootstrap/compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#4 /usr/home/user9/apps/hello/bootstrap/compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#5 /usr/home/user9/apps/hello/bootstrap/compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#6 /usr/home/user9/apps/hello/bootstrap/compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#7 /usr/home/user9/apps/hello/bootstrap/compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /usr/home/user9/apps/hello/bootstrap/compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /usr/home/user9/apps/hello/bootstrap/compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#10 /usr/home/user9/apps/hello/bootstrap/compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#11 /usr/home/user9/apps/hello/bootstrap/compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#12 /usr/home/user9/apps/hello/public/index.php(49): Illuminate\Foundation\Application->run()
+#13 {main} [] []
+[2017-08-14 15:31:33] production.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected end of file' in /usr/home/user9/apps/hello/app/storage/views/b1aeab1d7962e4caddbcdbbd97a9ba8a:6
+Stack trace:
+#0 [internal function]: Illuminate\Exception\Handler->handleShutdown()
+#1 {main} [] []
+[2017-08-14 16:04:02] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /usr/home/user9/apps/hello/bootstrap/compiled.php:3723
+Stack trace:
+#0 /usr/home/user9/apps/hello/bootstrap/compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /usr/home/user9/apps/hello/bootstrap/compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /usr/home/user9/apps/hello/bootstrap/compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /usr/home/user9/apps/hello/bootstrap/compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /usr/home/user9/apps/hello/bootstrap/compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /usr/home/user9/apps/hello/bootstrap/compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /usr/home/user9/apps/hello/bootstrap/compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /usr/home/user9/apps/hello/bootstrap/compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /usr/home/user9/apps/hello/bootstrap/compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /usr/home/user9/apps/hello/bootstrap/compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /usr/home/user9/apps/hello/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-08-14 16:04:07] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /usr/home/user9/apps/hello/bootstrap/compiled.php:3723
+Stack trace:
+#0 /usr/home/user9/apps/hello/bootstrap/compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /usr/home/user9/apps/hello/bootstrap/compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /usr/home/user9/apps/hello/bootstrap/compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /usr/home/user9/apps/hello/bootstrap/compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /usr/home/user9/apps/hello/bootstrap/compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /usr/home/user9/apps/hello/bootstrap/compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /usr/home/user9/apps/hello/bootstrap/compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /usr/home/user9/apps/hello/bootstrap/compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /usr/home/user9/apps/hello/bootstrap/compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /usr/home/user9/apps/hello/bootstrap/compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /usr/home/user9/apps/hello/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-08-14 16:07:14] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /usr/home/user9/apps/hello/bootstrap/compiled.php:3723
+Stack trace:
+#0 /usr/home/user9/apps/hello/bootstrap/compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /usr/home/user9/apps/hello/bootstrap/compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /usr/home/user9/apps/hello/bootstrap/compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /usr/home/user9/apps/hello/bootstrap/compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /usr/home/user9/apps/hello/bootstrap/compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /usr/home/user9/apps/hello/bootstrap/compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /usr/home/user9/apps/hello/bootstrap/compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /usr/home/user9/apps/hello/bootstrap/compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /usr/home/user9/apps/hello/bootstrap/compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /usr/home/user9/apps/hello/bootstrap/compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /usr/home/user9/apps/hello/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-08-14 16:07:41] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /usr/home/user9/apps/hello/bootstrap/compiled.php:3723
+Stack trace:
+#0 /usr/home/user9/apps/hello/bootstrap/compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /usr/home/user9/apps/hello/bootstrap/compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /usr/home/user9/apps/hello/bootstrap/compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /usr/home/user9/apps/hello/bootstrap/compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /usr/home/user9/apps/hello/bootstrap/compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /usr/home/user9/apps/hello/bootstrap/compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /usr/home/user9/apps/hello/bootstrap/compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /usr/home/user9/apps/hello/bootstrap/compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /usr/home/user9/apps/hello/bootstrap/compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /usr/home/user9/apps/hello/bootstrap/compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /usr/home/user9/apps/hello/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-08-14 16:08:34] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /usr/home/user9/apps/hello/bootstrap/compiled.php:3723
+Stack trace:
+#0 /usr/home/user9/apps/hello/bootstrap/compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /usr/home/user9/apps/hello/bootstrap/compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /usr/home/user9/apps/hello/bootstrap/compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /usr/home/user9/apps/hello/bootstrap/compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /usr/home/user9/apps/hello/bootstrap/compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /usr/home/user9/apps/hello/bootstrap/compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /usr/home/user9/apps/hello/bootstrap/compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /usr/home/user9/apps/hello/bootstrap/compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /usr/home/user9/apps/hello/bootstrap/compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /usr/home/user9/apps/hello/bootstrap/compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /usr/home/user9/apps/hello/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-08-14 16:22:04] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /usr/home/user9/apps/hello/bootstrap/compiled.php:3723
+Stack trace:
+#0 /usr/home/user9/apps/hello/bootstrap/compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /usr/home/user9/apps/hello/bootstrap/compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /usr/home/user9/apps/hello/bootstrap/compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /usr/home/user9/apps/hello/bootstrap/compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /usr/home/user9/apps/hello/bootstrap/compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /usr/home/user9/apps/hello/bootstrap/compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /usr/home/user9/apps/hello/bootstrap/compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /usr/home/user9/apps/hello/bootstrap/compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /usr/home/user9/apps/hello/bootstrap/compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /usr/home/user9/apps/hello/bootstrap/compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /usr/home/user9/apps/hello/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-08-14 16:22:34] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /usr/home/user9/apps/hello/bootstrap/compiled.php:3723
+Stack trace:
+#0 /usr/home/user9/apps/hello/bootstrap/compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /usr/home/user9/apps/hello/bootstrap/compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /usr/home/user9/apps/hello/bootstrap/compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /usr/home/user9/apps/hello/bootstrap/compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /usr/home/user9/apps/hello/bootstrap/compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /usr/home/user9/apps/hello/bootstrap/compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /usr/home/user9/apps/hello/bootstrap/compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /usr/home/user9/apps/hello/bootstrap/compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /usr/home/user9/apps/hello/bootstrap/compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /usr/home/user9/apps/hello/bootstrap/compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /usr/home/user9/apps/hello/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-08-14 16:23:50] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /usr/home/user9/apps/hello/bootstrap/compiled.php:3723
+Stack trace:
+#0 /usr/home/user9/apps/hello/bootstrap/compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /usr/home/user9/apps/hello/bootstrap/compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /usr/home/user9/apps/hello/bootstrap/compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /usr/home/user9/apps/hello/bootstrap/compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /usr/home/user9/apps/hello/bootstrap/compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /usr/home/user9/apps/hello/bootstrap/compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /usr/home/user9/apps/hello/bootstrap/compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /usr/home/user9/apps/hello/bootstrap/compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /usr/home/user9/apps/hello/bootstrap/compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /usr/home/user9/apps/hello/bootstrap/compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /usr/home/user9/apps/hello/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-08-14 16:25:08] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /usr/home/user9/apps/hello/bootstrap/compiled.php:3723
+Stack trace:
+#0 /usr/home/user9/apps/hello/bootstrap/compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /usr/home/user9/apps/hello/bootstrap/compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /usr/home/user9/apps/hello/bootstrap/compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /usr/home/user9/apps/hello/bootstrap/compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /usr/home/user9/apps/hello/bootstrap/compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /usr/home/user9/apps/hello/bootstrap/compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /usr/home/user9/apps/hello/bootstrap/compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /usr/home/user9/apps/hello/bootstrap/compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /usr/home/user9/apps/hello/bootstrap/compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /usr/home/user9/apps/hello/bootstrap/compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /usr/home/user9/apps/hello/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []
+[2017-08-14 16:25:17] production.ERROR: exception 'Symfony\Component\HttpKernel\Exception\NotFoundHttpException' in /usr/home/user9/apps/hello/bootstrap/compiled.php:3723
+Stack trace:
+#0 /usr/home/user9/apps/hello/bootstrap/compiled.php(3045): Illuminate\Routing\RouteCollection->match(Object(Illuminate\Http\Request))
+#1 /usr/home/user9/apps/hello/bootstrap/compiled.php(3033): Illuminate\Routing\Router->findRoute(Object(Illuminate\Http\Request))
+#2 /usr/home/user9/apps/hello/bootstrap/compiled.php(3025): Illuminate\Routing\Router->dispatchToRoute(Object(Illuminate\Http\Request))
+#3 /usr/home/user9/apps/hello/bootstrap/compiled.php(702): Illuminate\Routing\Router->dispatch(Object(Illuminate\Http\Request))
+#4 /usr/home/user9/apps/hello/bootstrap/compiled.php(678): Illuminate\Foundation\Application->dispatch(Object(Illuminate\Http\Request))
+#5 /usr/home/user9/apps/hello/bootstrap/compiled.php(5797): Illuminate\Foundation\Application->handle(Object(Illuminate\Http\Request), 1, true)
+#6 /usr/home/user9/apps/hello/bootstrap/compiled.php(6404): Illuminate\Session\Middleware->handle(Object(Illuminate\Http\Request), 1, true)
+#7 /usr/home/user9/apps/hello/bootstrap/compiled.php(6351): Illuminate\Cookie\Queue->handle(Object(Illuminate\Http\Request), 1, true)
+#8 /usr/home/user9/apps/hello/bootstrap/compiled.php(8367): Illuminate\Cookie\Guard->handle(Object(Illuminate\Http\Request), 1, true)
+#9 /usr/home/user9/apps/hello/bootstrap/compiled.php(639): Stack\StackedHttpKernel->handle(Object(Illuminate\Http\Request))
+#10 /usr/home/user9/apps/hello/public/index.php(49): Illuminate\Foundation\Application->run()
+#11 {main} [] []

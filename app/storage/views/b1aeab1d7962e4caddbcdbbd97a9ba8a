@@ -1,0 +1,11 @@
+<?php $__env->startSection('content'); ?>
+<p>This is my content</p>
+<?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('head'); ?>
+@parent
+<p>new Head</p>
+<?php $__env->stopSection(); ?>
+
+
+<?php echo $__env->make('hello.layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
